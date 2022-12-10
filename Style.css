@@ -3,7 +3,12 @@
     #main_text{
         text-align:center;
         font-family:born ready slanted;
-        font-size: 56pt;
+        font-size: 6vw;
+    }
+    #subtitle{
+        font-size: large;
+        text-align:center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
      
     /*----------------------*/
@@ -91,4 +96,32 @@
     }  
     
     
-/*---------for
+/*---------responsive*/
+
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    button{
+        display:block;
+        margin:0.4em auto;
+    }
+    #main_text{
+        font-size: 10vw;
+    }
+    #subtitle{
+        font-size: 15pt;
+    }
+    
+  }
