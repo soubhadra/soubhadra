@@ -1,8 +1,12 @@
-
+  @font-face {
+    font-family: BornReady;
+    src: url(Fonts/FontsFree-Net-born-ready-slanted.ttf) format('truetype');
+    font-weight: normal ;
+  }
     
     #main_text{
         text-align:center;
-        font-family:born ready slanted;
+        font-family:"BornReady", sans-serif;
         font-size: 6vw;
         margin: 0;
     }
