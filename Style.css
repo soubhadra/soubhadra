@@ -141,7 +141,7 @@
     }
     #main_text{
         font-size: 10vw;
-        font-family: caladea;
+        /*font-family: caladea;*/
     }
     #subtitle{
         font-size: 15pt;
