@@ -121,15 +121,16 @@
 /*----------------------------------boat image*/
 #boat-img{
   width: 300px;
+  
 }   
 .boat-class{
-  
   animation: animate 7s infinite linear;
   position: relative;
-}@keyframes animate {
+}
+@keyframes animate {
   
-  from {left: 50%;}
-  to {left: -91%;}
+  from {left: 91%;}
+  to {left: -61%;}
 
 }
 
@@ -167,12 +168,19 @@
 
     .boat-class{
   
-      animation: animate 2.8s infinite linear;
+      animation: animate 3.5s infinite linear;
+     /*  animation: animate 3s infinite; */
       position: relative;
+      
     }@keyframes animate {
       
-      from {left: 40%;}
-      to {left: -92%;}
+  from {left: 96%;}
+  to {left: -350px;}
+
+      /* 
+  0%    { opacity: 0; }
+  20%   { opacity: 1; }
+  80%   { opacity: 0; } */
     
     }
     
