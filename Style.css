@@ -118,6 +118,24 @@
     }
 
 
+/*----------------------------------boat image*/
+#boat-img{
+  width: 300px;
+}   
+.boat-class{
+  
+  animation: animate 7s infinite linear;
+  position: relative;
+}@keyframes animate {
+  
+  from {left: 50%;}
+  to {left: -91%;}
+
+}
+
+
+
+
 /*----------------------------------responsive*/
 
 .left, .right {
@@ -146,5 +164,17 @@
     #subtitle{
         font-size: 15pt;
     }
+
+    .boat-class{
+  
+      animation: animate 2.8s infinite linear;
+      position: relative;
+    }@keyframes animate {
+      
+      from {left: 40%;}
+      to {left: -92%;}
+    
+    }
+    
     
   }
