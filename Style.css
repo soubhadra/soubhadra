@@ -218,8 +218,47 @@
 
   }
 
+  
+@media only screen and (max-height: 1000px) {
 
+    
+ /*  #containerimage1{
+    width: 44vw;
+  }
+  #containerimage2{
+    width: 40vw;
+  } */
+  .container2{
+    height: 160%;
+    min-height: 150% !important;
+  }
+/*   #stickyScrollButton{
+    margin-top: 40vh;
+  } */
+  
+  
+}
 
+@media only screen and (max-height: 700px) {
+
+    
+   #stickyScrollButton{
+     margin-top: 40vh;
+   }
+   
+   
+ }
+
+ @media only screen and (max-height: 600px) {
+  #stickyScrollButton{
+    margin-top: 30vh;
+  }
+}
+@media only screen and (max-height: 520px) {
+ #stickyScrollButton{
+   display: none;
+ }
+}
 
   .home {
     height: 100vh;
