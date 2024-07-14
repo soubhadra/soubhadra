@@ -34,7 +34,7 @@
       /* padding: 1rem; */
     }
     
-    button {
+    .button-64 {
       -webkit-appearance: none;
       background: -webkit-gradient(to right, #77be99 0%, #fceeb5 50%, #ee786e 100%);
       background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
@@ -59,7 +59,7 @@
       margin: 15pt;
     }
     
-    button:hover {
+    .button-64:hover {
       animation-name: gradient;
       -webkit-animation-name: gradient;
       animation-duration: 2s;
@@ -106,38 +106,7 @@
     color: white;   
     }  
  
-/*----------------------------------button animation*/   
-    
-/* .bouncy{
-    animation:bouncy 5s infinite linear;
-    position:relative;
-    }
-    @keyframes bouncy {
-    0%{top:0em}
-    40%{top:0em}
-    43%{top:-0.9em}
-    46%{top:0em}
-    48%{top:-0.4em}
-    50%{top:0em}
-    100%{top:0em;}
-    } */
 
-
-/*----------------------------------boat image*/
-/* #boat-img{
-  width: 300px;
-  
-}   
-.boat-class{
-  animation: animate 7s infinite linear;
-  position: relative;
-}
-@keyframes animate {
-  
-  from {left: 91%;}
-  to {left: -61%;}
-
-} */
 
 #containerimage1{
   width: 13.5vw;
@@ -187,19 +156,11 @@
         font-size: 15pt;
     }
 
-    /*.boat-class{
-  
-      animation: animate 3.5s infinite linear;
-    
-      position: relative;
-      display: none;
-    }@keyframes animate {
-      
-  from {left: 96%;}
-  to {left: -350px;}
-   
+
+    body .modal-content{
+      width:100%;
+      height:84%;
     }
-    */
 
     
     #containerimage1{
@@ -263,3 +224,75 @@
   .home {
     height: 100vh;
   }
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#btnModalOpener{
+  
+ 
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #1ED760;
+  height: 48px;
+  /* border: 1px solid #222222; */
+
+  :hover{
+      transform: scale(1.04);
+      background-color: #21e065;
+  }
+  
+  }
+
+}

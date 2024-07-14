@@ -101,9 +101,7 @@
         </div>
 
         <br><br><br><br>
-        <!-- <div style="display: flex;width:100%; overflow:hidden ;" >
-            <img src="images/boat5v5.webp" id="boat-img" alt="Image of Boat" class="boat-class">      
-        </div> -->
+
         
         
         <div class="container" >
@@ -136,7 +134,40 @@
            
 
 <br><br><br><br>
+<button id="btnModalOpener">Leave a message for me</button>
 
+<br><br>   
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_baHNXVmVFnUV0fUbz5W7jJhHQk6zWemrBaEXuiy0RYxm9A/viewform?embedded=true" 
+          width="100%" height="90%"
+          frameborder="0" marginheight="0"
+          marginwidth="0">
+          Loading…
+      </iframe>
+    </div>
+  
+  </div>
+  
+  <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("btnModalOpener");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
+            }
+        }
+  </script>
+  
 
 
 
@@ -157,11 +188,6 @@
                 <button class="button-64 bouncy event_button_click" role="button" id="youtube-button" data-action-detail="youtube-button"  action="submit" style="animation-delay:0.21s" aria-label="Youtube"><span class="text"><i href="#" class="fa fa-youtube event_button_click" data-action-detail="youtube-button" ></i></span></button>
                 </form>    
             </div>
-            <!-- <div class="inner" >
-                <form action="https://www.youtube.com/soubhadrachakraborty" target="_blank">
-                <button class="button-64" role="button" action="submit"><span class="text"><i href="#" class="fa fa-blog"></i></span></button>
-                </form>    
-            </div> -->
         </div>
 
     </div>
