@@ -47,7 +47,7 @@
       font: 1.5em Raleway, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      height: 5rem;
+      height: 4.5rem;
       letter-spacing: 0.05em;
       outline: none;
       -webkit-tap-highlight-color: transparent;
@@ -55,7 +55,7 @@
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
-      width: 5rem;
+      width: 4.5rem;
       margin: 15pt;
     }
     
